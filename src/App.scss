@@ -1,0 +1,72 @@
+.home-page {
+    background-color: black;
+    .navbar {
+        &-brand {
+            margin-left: 3rem;
+            color: red !important;
+            font-size: 3rem;
+        }
+    }
+    .banner {
+        &--background {
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 800px;
+            display: flex;
+            align-items: center;
+        }
+        &--content {
+            width: 60%;
+            margin-left: 7rem;
+            &__headline {
+                color: red;
+            }
+            &__title {
+                color: white;
+            }
+        }
+    }
+    .carousel-block {
+        margin-top: 5rem;
+        padding-bottom: 5rem;
+        .carousel {
+            &--headline {
+                margin-top: 6rem;
+                color: white;
+                text-transform: capitalize;
+            }
+            &-indicators {
+                margin-bottom: -3rem !important;
+            }
+        }
+    }
+}
+
+.list-page {
+    background-color: black;
+    .navbar {
+        &-brand {
+            margin-left: 3rem;
+            color: red !important;
+            font-size: 3rem;
+        }
+    }
+    h2 {
+        color: white;
+    }
+}
+
+.favorite-page {
+    background-color: black;
+    .navbar {
+        &-brand {
+            margin-left: 3rem;
+            color: red !important;
+            font-size: 3rem;
+        }
+    }
+    h2 {
+        color: white;
+    }
+}
